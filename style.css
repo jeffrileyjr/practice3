@@ -1,0 +1,53 @@
+body {
+    background-image: url("https://live.staticflickr.com/65535/50330413353_e2b7eab2fb_k.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* removes background image and adds background color */
+.background-color {
+    background-color: slategray;
+    background-image: none;
+}
+/* container for our square and circle divs */
+.parentContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+h2 {
+    width: 100%;
+    text-align: center;
+    color: antiquewhite;
+}
+#square, #circle {
+    display: flex;
+    flex-wrap: wrap;
+    /* if you set width to 50% they will appear as two columns, if you remove it, you will get to rows */
+    width: 50%; 
+}
+.square {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin: 5px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- div with header class to hold all our buttons -->
+    <div class="header">
+      <!-- three buttons based on the requirements with click functions -->
+      <button onClick="toggleImage()">Toggle Image</button>
+      <button onClick="addSquare()">Add Square</button>
+      <button onClick="addCircle()">Add Circle</button>
+    </div>
+    <!-- div to hold all our squares and circles -->
+    <div class="parentContainer">
+      <div id="circle">
+          <h2>Circles!</h2>
+        <!-- circles go here -->
+      </div>
+      <div id="square">
+          <h2>Squares!</h2>
+        <!-- boxes go here -->
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
